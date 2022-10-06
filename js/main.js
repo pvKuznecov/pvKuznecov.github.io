@@ -2,4 +2,4 @@
 
 const greatingName = "Доброго времени суток.";
 
-alert(greatingName);
+// alert(greatingName);

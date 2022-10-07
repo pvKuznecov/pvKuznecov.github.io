@@ -1,11 +1,20 @@
 h1 {
   text-align: center;
-  color: Turquoise;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  background-color: CornflowerBlue;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  box-shadow: -1px 1px grey;
 }
 
 .section_content {
   margin: auto;
-  width: 80%;
+  margin-top: 30px;
+  width: 50%;
   border-radius: 20px;
   padding-left: 1%;
   padding-right: 1%;
@@ -17,8 +26,8 @@ h1 {
 .section_content h2 {
   color: white;
   padding-left: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   background-color: CornflowerBlue;
   border-radius: 15px;
   text-shadow: 1px 1px 2px black;

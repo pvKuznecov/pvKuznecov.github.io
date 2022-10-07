@@ -9,13 +9,14 @@ h1 {
   border-radius: 20px;
 }
 
-.section-content h2 {
+.section_content h2 {
   color: Turquoise;
   padding: 5%;
 }
 
-.section-content code {
+.section_content code {
   border-left: 2px dotted Turquoise; /* Линия слева от текста */
   padding-left: 2%; /* Расстояние между линией и текстом */
   margin-left: 2%;
+  color: blue;
 }

@@ -9,6 +9,10 @@ h1 {
   border-radius: 20px;
 }
 
+.section-content h2 {
+  color: Turquoise;
+}
+
 .section-content code {
   border-left: 2px dotted Turquoise; /* Линия слева от текста */
   padding-left: 10px; /* Расстояние между линией и текстом */

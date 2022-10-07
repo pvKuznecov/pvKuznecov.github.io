@@ -10,5 +10,7 @@ h1 {
 }
 
 .section-content code {
-  color: Turquoise;
+  border-left: 2px dotted Turquoise; /* Линия слева от текста */
+  padding-left: 10px; /* Расстояние между линией и текстом */
+  margin-left: 10px;
 }

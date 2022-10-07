@@ -9,3 +9,7 @@ h1 {
   border-color: blue;
   border-width: outset;
 }
+
+.section-content code {
+  color: DeepSkyBlue;
+}

@@ -5,11 +5,10 @@ h1 {
 
 .section_content {
   margin: 5%;
+  border: 2px outset blue;
   border-radius: 20px;
-  border-color: blue;
-  border-width: outset;
 }
 
 .section-content code {
-  color: DeepSkyBlue;
+  color: Turquoise;
 }

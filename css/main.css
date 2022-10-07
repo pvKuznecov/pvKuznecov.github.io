@@ -6,4 +6,5 @@ h1 {
 .section_content {
   margin: 5%;
   border-radius: 20px;
+  border-color: blue;
 }

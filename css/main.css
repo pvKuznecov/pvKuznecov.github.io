@@ -4,19 +4,30 @@ h1 {
 }
 
 .section_content {
-  margin: 5%;
-  border: 2px outset blue;
+  margin: auto;
+  width: 80%;
   border-radius: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  padding-top: 1px;
+  box-shadow: 1px 1px black, -1em 0 .2em black;
 }
 
 .section_content h2 {
-  color: Turquoise;
-  padding: 5%;
+  color: white;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: CornflowerBlue;
+  border-radius: 15px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .section_content code {
   border-left: 2px dotted Turquoise; /* Линия слева от текста */
   padding-left: 2%; /* Расстояние между линией и текстом */
-  margin-left: 2%;
+  margin-left: 10%;
   color: blue;
+  background-color: LightCyan;
 }

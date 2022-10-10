@@ -4,24 +4,25 @@
   <meta charset="utf-8" />
   <title>Индивидуальный справочник по HTML, CSS и JS.</title>
   <link rel="stylesheet" href="css/main.css">
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   <script src="js/main.js"></script>
-  <h1>«Справочник по HTML, CSS и JS»</h1>  
+  <h1>«Справочник по HTML, CSS и JS»</h1>
 </head>
 <body>
   <header>
     <nav>
-    <h3>Навигатор:</h3>
-    <ul>
-      <li><a href="area-html.html">HTML</a></li>
-      <li><a href="area-css.html">CSS</a></li>
-      <li><a href="area-js.html">JS</a></li>
-    </ul>    
+      <a class="selected">🏠 На главную</a> <br>
+      <a href="area-html.html">📄 HTML</a> <br>
+      <a href="area-css.html">🖌️ CSS</a> <br>
+      <a href="area-js.html">⚙️ JS</a> <br>
+    <hr>
+    <button class="nav_showAction">=</button>
   </nav>
   </header>
   <main>
     <section>Первая смысловая секция</section>
     <section>Вторая смысловая секция</section>
-    
+
   </main>
   <footer>
     <hr>

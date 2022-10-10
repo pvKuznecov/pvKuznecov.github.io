@@ -4,25 +4,26 @@
   <meta charset="utf-8" />
   <title>Индивидуальный справочник по HTML, CSS и JS.</title>
   <link rel="stylesheet" href="css/main.css">
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   <script src="js/main.js"></script>
   <h1>«HTML»</h1>
 </head>
 <body>
   <header>
     <nav>
-    <h3>Навигатор</h3>
-    <ul>
-      <li><a href="index.html">На главную</a></li>
-      <li><a href="area-css.html">CSS</a></li>
-      <li><a href="area-js.html">JS</a></li>
-    </ul>
-  </nav>
+      <a href="index.html">🏠 На главную</a> <br>
+      <a class="selected">📄 HTML</a> <br>
+      <a href="area-css.html">🖌️ CSS</a> <br>
+      <a href="area-js.html">⚙️ JS</a> <br>
+      <hr>
+      <button class="nav_showAction">=</button>
+    </nav>
   </header>
   <main>
     <section>
       <div class="section_content">
-        <h2>Конспект «Структура HTML-документа»</h2>
-        <div class="content">
+        <h2 class="section_contentName">Конспект «Структура HTML-документа»</h2>
+        <div class="section_contentText">
           Каждый HTML-документ начинается с <b>декларации типа документа</b> или «<b>доктайпа</b>». Тип документа необходим, чтобы браузер мог определить версию HTML и правильно отобразить страницу.
           <br><br>
           <code>&lt;!DOCTYPE html&gt;</code>
@@ -87,8 +88,8 @@
 
     <section>
       <div class="section_content">
-        <h2>Конспект «Разметка текста»</h2>
-        <div class="content">
+        <h2 class="section_contentName">Конспект «Разметка текста»</h2>
+        <div class="section_contentText">
           <h3><b>Списки</b></h3>
           <h3>Неупорядоченный список</h3>
           Тег <b>&lt;ul&gt;</b> (сокращение от «unordered list»). Используется, когда порядок элементов не важен. Например, для разметки перечня ссылок в меню, преимуществ товара, ингредиентов в составе продукта.

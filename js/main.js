@@ -1,37 +1,31 @@
 $(document).ready(function(){
   "use strict";
 
-  // function showSContent(textId, textContentid) {
-  //   let elem = document.querySelector(textId);
-  //   if ($(textName).is(":hidden")) {
-  //           $(textContent).show("slow");
-  //       } else {
-  //           $(textContent).hide("slow");
-  //       }
-  //       return false;
-  //   };
-  //
-  $(".section_contentName").click(function () {
-    let elem = document.querySelector(".section_contentName");
-    let thisElem = $(this);
-    let parent = elem.closest('.section_content');
-    let parentId = parent.id;
-    console.log("elem::" + elem);
-    console.log("AAAAAAA" + this.value);
-    console.log("2" + thisElem.currentTarget);
-    console.log("thisElem::" + thisElem);
-    console.log(thisElem.id);
-    console.log(parent);
-    console.log(parentId);
-    console.log("____________________");
-
-    if ($(".section_contentText").is(":hidden")) {
-            $(".section_contentText").show("slow");
-        } else {
-            $(".section_contentText").hide("slow");
-        }
-        return false;
+  $(".section_1_contentName").click(function () {
+    if ($(".section_1_contentText").is(":hidden")) {
+      $(".section_1_contentText").show("slow");
+    } else {
+      $(".section_1_contentText").hide("slow");
+    }
+    return false;
     });
 
+  $(".section_2_contentName").click(function () {
+    if ($(".section_2_contentText").is(":hidden")) {
+      $(".section_2_contentText").show("slow");
+    } else {
+      $(".section_2_contentText").hide("slow");
+    }
+    return false;
+    });
+
+  $(".section_3_contentName").click(function () {
+    if ($(".section_3_contentText").is(":hidden")) {
+      $(".section_3_contentText").show("slow");
+    } else {
+      $(".section_3_contentText").hide("slow");
+    }
+    return false;
+    });
 
 });

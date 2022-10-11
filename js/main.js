@@ -3,10 +3,10 @@ $(document).ready(function(){
 
   $(".nav_showAction").click(function () {
     if ($(".nav_hName").is(":hidden")) {
-      $(".nav_hName").show("slow");
+      $(".nav_hName").show();
       $(".main_navigator").width("7%");
     } else {
-      $(".nav_hName").hide("slow");
+      $(".nav_hName").hide();
       $(".main_navigator").width("22px");
     }
   });

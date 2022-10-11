@@ -28,4 +28,13 @@ $(document).ready(function(){
     return false;
     });
 
+  $(".section_4_contentName").click(function () {
+    if ($(".section_4_contentText").is(":hidden")) {
+      $(".section_4_contentText").show("slow");
+    } else {
+      $(".section_4_contentText").hide("slow");
+    }
+    return false;
+    });
+
 });

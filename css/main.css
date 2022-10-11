@@ -58,6 +58,7 @@ nav {
   border-radius: 15px;
   padding-left: 5px;
   text-shadow: 1px 1px 2px black;
+  position: absolute;
 }
 
 nav .nav_hName {
@@ -93,4 +94,40 @@ nav .selected {
 table {
   color: black;
   margin: auto;
+}
+
+footer {
+  background-color: DarkSlateBlue;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  width: 80%;
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+}
+
+footer .step_up {
+  border-radius: 5px;
+  width: 25px;
+  height: 20px;
+  padding: 2px;
+}
+
+footer A {
+  color: black;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+footer A:visited {
+  color: black;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+footer A:active {
+  color: black;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }

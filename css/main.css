@@ -41,7 +41,7 @@ h1 {
   background-color: LightCyan;
 }
 
-.section_contentText {
+.section_1_contentText, .section_2_contentText, .section_3_contentText {
   display: none;
 }
 
@@ -66,3 +66,4 @@ nav .selected {
   color: black;
   border-radius: 5px;
 }
+Footer

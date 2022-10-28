@@ -1,0 +1,83 @@
+body {
+  background-color: Gainsboro;
+}
+
+header, footer {
+  height: 5%;
+  width: 100%;
+  background-color: Indigo;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1rem;
+}
+
+header {
+  top: 0; left: 0; right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+}
+
+footer {
+  bottom: 0; left: 0; right: 0;
+  height: 5%;
+  height: auto;
+}
+
+#mainWindow {
+  padding-top: 40px;
+  padding-left: 13%;
+  width: 85%;
+  height: auto;
+  /*margin: auto;*/
+  background-color: Gainsboro;
+}
+
+#step_to_menu {
+  width: auto;
+  height: 22px;
+  background-color: Indigo;
+  border-radius: 15px;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  top: 0; right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 0;
+}
+
+#step_to_menu A, A:visited, A:active {
+  color: white;
+  text-decoration: none;
+}
+
+#mainWindow .contentCube {
+  width: 30%;
+  height: 30%;
+  padding: 1px;
+  float: left;
+}
+.contentCube iframe {
+  border-radius: 10px;
+}
+
+#mainNav {
+  width: 10%;
+  height: 80%;
+  background-color: Indigo;
+  position: fixed;
+  top: 5.1%; left: 0;
+  border-radius: 0 0 15px 0;
+}
+
+#mainNav button {
+  border-radius: 10px;
+  width: 95%;
+  height: 40px;
+  border: 0;
+  margin-top: 3px;
+  clip-path: polygon(0 0, 70% 0%, 60% 100%, 0% 100%);
+  background-color: yellow;
+}

@@ -35,7 +35,7 @@ footer {
 
 #step_to_menu {
   width: auto;
-  height: 22px;
+  height: auto;
   background-color: Indigo;
   border-radius: 15px;
   text-shadow: 1px 1px 2px black;
@@ -55,7 +55,7 @@ footer {
 
 #mainWindow .contentCube {
   width: 30%;
-  height: 30%;
+  min-height: 30%;
   padding: 1px;
   float: left;
 }
@@ -73,11 +73,14 @@ footer {
 }
 
 #mainNav button {
-  border-radius: 10px;
-  width: 95%;
-  height: 40px;
+  border-radius: 5px;
+  width: 95%; height: 50px;
   border: 0;
-  margin-top: 3px;
-  clip-path: polygon(0 0, 70% 0%, 60% 100%, 0% 100%);
-  background-color: yellow;
+  margin-top: 3px; margin-left: 3px;
+  background-color: Indigo;
+  box-shadow: 0 0 10px black;
+  font-size: 1.2em;
+  font-family: Comic;
+  text-shadow: 1px 1px 2px black;
+  color: white;
 }

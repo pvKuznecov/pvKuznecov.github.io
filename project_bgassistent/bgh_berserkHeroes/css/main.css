@@ -1,17 +1,20 @@
 body {
-  background-color: black;
+  /*background-color: black;*/
+  background-image: url("../img/bg.jpg");
 }
 
 .startMenu {
   background-color: white;
-  opacity: 0.9; /* Полупрозрачный фон */
+  opacity: 0.8; /* Полупрозрачный фон */
   border-radius: 10px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 90%;
   height: 90%;
   text-align: center;
   margin: auto;
   font-size: 30px;
+  padding: 5px;
+  margin-top: 3%;
 }
 
 .startMenu button {
@@ -30,4 +33,5 @@ body {
 .main {
   background-color: green;
   padding: 5px;
+  display: none;
 }

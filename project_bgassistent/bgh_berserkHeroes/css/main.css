@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+.startMenu {
+  background-color: white;
+  opacity: 0.9; /* Полупрозрачный фон */
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+}
+
+.startMenu button {
+  border-radius: 20px;
+  width: 25%;
+  height: 10%;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.selectedHeroes {
+  background-color: red;
+  display: none;
+}
+
+.main {
+  background-color: green;
+  padding: 5px;
+}
